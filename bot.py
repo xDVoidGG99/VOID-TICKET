@@ -32,9 +32,9 @@ intents.message_content = True
 intents.dm_messages = True
 
 bot = commands.Bot(command_prefix=';', intents=intents)
-CATEGORY_ID = 1311002226155847740  # Replace with your category ID
-GUILD_ID = 1310011376479109140  # Replace it with your GUID ID
-TICKET_ROLE_ID = 1310015006271869090  # TEAM ROLE ID
+CATEGORY_ID = YOUR_TICKET_CATEGORY  # Replace with your category ID
+GUILD_ID = YOUR_GUILD_ID  # Replace it with your GUID ID
+TICKET_ROLE_ID = YOUR_TICKET_ROLE_ID  # TEAM ROLE ID
 
 active_tickets = {}
 
